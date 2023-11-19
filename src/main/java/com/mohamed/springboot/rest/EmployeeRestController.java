@@ -21,7 +21,7 @@ public class EmployeeRestController {
 		this.service = service;
 	}
 	
-	@GetMapping("/employee")
+	@GetMapping("/employees")
 	public List<Employee> findAll(){
 		return service.findAll();
 	}
